@@ -4,27 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Shield, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
-const footerLinks = {
-  company: [
-    { label: "About Us", href: "/about" },
-    { label: "Our Team", href: "/team" },
-    { label: "Careers", href: "/careers" },
-    { label: "Media Coverage", href: "/media" },
-  ],
-  services: [
-    { label: "Claim Rejection", href: "/services/claim-rejection" },
-    { label: "Claim Delay", href: "/services/claim-delay" },
-    { label: "Mis-selling", href: "/services/mis-selling" },
-    { label: "Short Settlement", href: "/services/short-settlement" },
-  ],
-  resources: [
-    { label: "Knowledge Center", href: "/blog/" },
-    { label: "Case Studies", href: "/success-stories" },
-    { label: "IRDAI Guidelines", href: "/irdai" },
-    { label: "Ombudsman Info", href: "/ombudsman" },
-  ],
-};
-
 const socialLinks = [
   { icon: Facebook, href: "https://facebook.com/tatkalclaims", label: "Facebook" },
   { icon: Twitter, href: "https://twitter.com/tatkalclaims", label: "Twitter" },
